@@ -14,22 +14,43 @@
   </div>
   
   <center id="logo">
-      <img src="images/logo.png" id="logo-img">
+      <img src="images/logo.png" id="logo-img"><br>
+      <button id="learn-more">Learn More</button>
   </center>
 
-  <style>    body {
+  <style>
+   body {
     	background-color:black;
     }
+
+    #learn-more {
+        background-color: black;
+        color: white;
+        width: 25%;
+        height: 50px;
+        font-size: 16px;
+        border:1px solid white;
+        margin-top: 50px;
+    }
+
+    #logo {
+        position: absolute;
+        top: 40%;
+    }
+
     #logo-img {
         width:50%;
+    }
+
+    * {
+        font-family: "Avenir Next", Times;
     }
     
     #navigation {
     	color: white;
     	float: left;
         margin-left:10%;
-        font-family: "Avenir Next", Times;
-        position: relative;
+        position: absolute;
         top:40%;
     }
     
@@ -37,7 +58,9 @@
     	color: white;
         text-decoration: none;
         margin-left:16px;
-    }</style>
+    }
+
+    </style>
 
 
 
